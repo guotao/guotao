@@ -34,8 +34,8 @@ jobs:
           plugin_pagespeed: yes
           plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
           plugin_pagespeed_detailed: yes
-          plugin_pagespeed_screenshot: no
-          plugin_pagespeed_url: https://kainy.cn/?pagespeed
+          plugin_pagespeed_screenshot: yes
+          plugin_pagespeed_url: https://blogs.kainy.cn/?pagespeed
           plugin_rss: yes
           plugin_rss_limit: 4
           plugin_rss_source: https://blogs.kainy.cn/atom.xml
