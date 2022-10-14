@@ -30,18 +30,18 @@
                         <div class="field calendar">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 11" width="210" height="16">
                                 <g>
-                                    <rect class="day" x="0" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="15" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                    <rect class="day" x="30" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="45" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
+                                    <rect class="day" x="0" y="0" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
+                                    <rect class="day" x="15" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
+                                    <rect class="day" x="30" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
+                                    <rect class="day" x="45" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="60" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="75" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="90" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="105" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="120" y="0" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
-                                    <rect class="day" x="135" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="150" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="165" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
+                                    <rect class="day" x="90" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
+                                    <rect class="day" x="105" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
+                                    <rect class="day" x="120" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
+                                    <rect class="day" x="135" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
+                                    <rect class="day" x="150" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
+                                    <rect class="day" x="165" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="180" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="195" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                 </g>
@@ -300,10 +300,10 @@
                 <div class="row fill-width">
                     <section class="categories">
                         <div class="category column">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="50" height="50" class="gauge average">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="50" height="50" class="gauge high">
                                 <circle class="gauge-base" r="53" cx="60" cy="60"/>
-                                <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="263.2 329"/>
-                                <text x="60" y="60" dominant-baseline="central">80</text>
+                                <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="296.1 329"/>
+                                <text x="60" y="60" dominant-baseline="central">90</text>
                             </svg>
                             <span class="title">Performance</span>
                         </div>
@@ -316,10 +316,10 @@
                             <span class="title">Accessibility</span>
                         </div>
                         <div class="category column">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="50" height="50" class="gauge high">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="50" height="50" class="gauge average">
                                 <circle class="gauge-base" r="53" cx="60" cy="60"/>
-                                <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="302.68 329"/>
-                                <text x="60" y="60" dominant-baseline="central">92</text>
+                                <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="273.07 329"/>
+                                <text x="60" y="60" dominant-baseline="central">83</text>
                             </svg>
                             <span class="title">Best Practices</span>
                         </div>
@@ -420,7 +420,7 @@
             </div>
             <div class="row">
                 <section>
-                    <img class="screenshot" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAFcAfQDASIAAhEBAxEB/8QAHAABAAIDAQEBAAAAAAAAAAAAAAEDAgQFBgcI/8QAPhABAAICAQMBBQUFBQYHAAAAAAECAxEEEiExBQYTIkFRFGFxgZEHMkKxwRUjM1ShFjVSctHwNENigpLC4f/EABsBAQEBAQEBAQEAAAAAAAAAAAABAgMEBQYH/8QALxEBAAICAQMCBAQGAwAAAAAAAAECAxESBCExE1FBUmGhBSKB0QYUFRaR8MHh8f/aAAwDAQACEQMRAD8A+yR4AflnzwAAABZlw5MUUnJWYi8brP1hW9b6Dkxcr0+uHJSJnH21Mbj8Xfp8MZrcd6luleU6cTJ6Ny8fHjNatenW5jfeIc2fD1vtLy6YuFbBEx7zJrt9I28k11WOmK/Gi5KxWdQiPLJEeUvMxAAKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAZAAAAGxi5vJxU6Mea9a/SJa4sWmviViZjwm9rXtNrzNrT5mZQCIR5SiI7pFgAFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAMgAAAAAAAEeUojykWAAUdT0GnEtnyW5k0iKx8MXnUOW7XszgxZ8ueMuOt4iI11RvXl36aOWWIbp3s3Mmf06L2jFwffUr+9elNxDU9Sjh5OPlyYJ41a9MTjina+9xvcfq3+Fmt6dx542Xj5bWrM9M0ruL7lRyODXB6FmyZsVIzzPV4713aO23vvWbUntHiZnt4dJjcPOAPkuAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACABkAAAAAAAAhKI8pFgAFG1wObl4OWb4dd41MWjtLVFraazuvlYnXd2f9oeX/wYv0n/AKqOb6xyeXgnDeKVpPnpjy5o7W6nLaNTZZvafiAODIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADHSUbSMhoNgAjYJAADYBEd0oie6RYABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEan6mkgaRo0kDSNGpSBpGjSQNI0aSBpEQkAAAAAAAAAAAAAAAAAAZVj6giIJgy393XetoxxfdptPbfZrTWu2wTMIZZFmDDkz5Ix4aza871EK3d9lcFrcnJm/hpXp/OXXDj9W8U92qxynTiZKWx3muSs1tHmJhlgwZeRfpw0te30h7y+LFe3VelLWjtuYMVcNJmuKKVme8xV7/6bG+9uzr6P1eAvW1LzW0atWdTCHQ9cwTg9Sy78X+OPzc987JXhaa+zjManQAwgAAAAAAAAAAAAAAAAAAAAAIACgAAAAAAAAAAAAAAAAADpcP0fk8rBGWnRWlvHVPlzXtvQ/8AdXH/AA/q9fR4a5rzFvZ0x1i093B/2e5f/Fi/+U/9EW9n+ZWszE4p18ot5d31vmW4fDm2LXvLT0xP0V+h/arY7ZeVljJW8RNI348vXPS4PU9OInbpwrvTyE9vKGWT/Et+LF8l5wGVY+cgVj5yXvFZiv8AFPiDJbppa3btDXrrJk95aPnEREf1b8NxHxY7mLXnJ0Wne/PzhGOtr5fjmYmY3E+Gebds8RGp1G4ifmTPvLViItqLbmZ8x9yOm1s2mt6Ut3mY7zCZj6KsmSLWmvX8O9biPl+KKXnFkml41X5fcSxNdwudr0PkWrwuZhxTrNNeqmvM/g40wmlrUtFqTNbR4mGsWScduTNZ1O25yvss8Dj2xzM8qZn3m9rKRgjicWeLM/buvvre/wDvwotz8153kjFefrbHWZ/kj7fnis1pNMcT56KRWf1iHT1Kb3/x/wB+V3Db9o89c3qGqzvorFZn73KByyXnJabT8WZnc7AGEAAAAAAAAAAAAAAAAAAAAABAAUAAAAAAAAAAAAAAAAAAe29D/wB1cf8ACf5y8S6/A9by8TjVw+7retfE709fRZq4rzN/Z0x2is9217T8OtZ+1dU9V7RXp+XhvegcKvG40Zq3mZzVrMxPy/724fqfq1ufgrjtiikRbq3FtrsPr2XDxaYaYq7pWKxaZeiubBXPOT/dtRavLbkZP8S34sUzO5mZ8ymsfN83y4lY+pe9aa6p1tGS/TqIjdp8QotPV1dUTNf4qz5rP1hrw3FWU1t1Ru9r1t518tsc2WOmvTEbie8W8spmIzRMT8XT8O/mpn44y2n4Zid9/wCQ3H1Tjx16vinczOo6fl97PV75LWxzTXiY35YxaLZIpEWiutajtplMRSYr7ysVmI3MR3RZPfRTVK1iemNTPhjadzq1/wCKZjXfSckWidU1u253E/IiJn+96p6dd9dpmQ7eVkXvSf73U18bj5M5+5VjncZIp5t3+OExl1rt/dx26vvGLVWBr5wMuYAAAAAAAAAAAAAAAAAAAAAAAAAIACgAAAAAAAAAAAAAAAAAAAAAJjW+7Od6nWt/JWyrKxKtW026LTH+J/FvzEfcmOrppP8A5vy++PvX5MfV8VZ1ePEqpiO9d2nJafimP+/DTpE7La669MbtNvi7b/RVeLWre9Y+GZ7/AFhdGGd2jdp7dpme20Un3VorEzMTOp3HiRYn2ZVm/a044+LtOvKmazF66rPVqO0xGls2t0xNMm++u8REMbfD4m0zEb35iwQTm/u7dNe3aIifkxxdc4rUje96+mmGp97E46zEz4i31WRabbiJibTHeJ7TuEWY14TaY1WOqZx71afntjvJ77Wo6deP4dJxxNYtk7at2mJ39WdcfV2i0+634/oJ4Tg3PVrfu/4drJjTLtWGE+SXOZ2AMsgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMqyXx1vO5jvrW4Ysqz8molYlTFrYqzOS3eY+GJj+aMlom0Wmd/D8M+Y2tzU95jmsTqWvjm1Y6IiOrczMTHj71dI79023StYpEzqdzuqfjtfU9sfVrUdk3/vLa6qzOp7xvwVmLRO7TekR3jXff1gVOTeSbRE9tduqPEwqx0mM1pm29RvcfNnNpra1LV3TzOk4qde+0Rj3vt/EEdoZ4Yi+LUxbW97mfK2Z0TqsMJlJnTnMpnugGWQAAAAAAAAAAAAAAAAAAAAAAAAAQAFAAAAAAAAAAAAAAAAAAAAAAAAAAZVn6sc2KMkdu1vqMqzrysSsTprRWI6qxvpr3t9bf/hS/vJmYiK2rG4mPGvpK/JTq+Ks6vHiVdMc3nU16Kb7x9Z/6NOm4mE4a1vS06nVp7xK7tWCdVjsw3tJnTEyme6AZZAAAAAAAAAAAAAAAAAAAAAAAAAAABAAUAAAAAAAAAAAAAAAAAAAAAAAAAAABlE/VlM6Vi7UnvICIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhIAAAAAAAAAAAAAAAAAAAAAAAmtZtaK1jcz2iGz/Z/L/y+T9FOC8Y82O8+K2iVVeLFvUOZyM/qPIvXPXJWsbtunXERuO+o1G/EfP7npwYsd4/POv1h3w48d4mb21rx9W3/Z/L/wAvk/RhTiZ73vWmK9rU/eiI8PKcf2Mw4uL6Xhn171C0cHmfa4n4v7yOqk9ExNp7fB+svbX5GHkVz1yZsuCbZseWuTFuLT023MTqY7TrX5vRbpuniY1f7wk0p7tb7By4j/w+T9Gt84j5zOoW8DiYuLzuNyLer8zJXDER7rptFb6rMd92n6x389o+e5mm9um9Lxaa9NonceYjbjnw4qTXhbe2bVrGtSrvlinG+0X6Iw/8XvK/d9/3s4tusWrWZrPz+X6vO8zPl5Pp08W3H5E3tFaRe+XvM7jc/u941SJ7zE99fe6fIzTw+Pa1ojcY9RvJakTPaNbrS1vG57fSPos4cXOsRbtJxrvy3ceWt5iNTEzHVETGtx9Wx7nJFKXmuq3nppMzrqn6R97hejxN+dys1Yv0WtuLWyTfe+863Eajcz8obPr/AKRi9XrWckcTLanEycfHTmYPe0w3tbcZaR8rf69o7wzjw45yTW1tRBFYmdTLtf2fy/8AL5P0P7P5f+Xyfo5vJ9PyZpjp9c9Qx1iMcTrfVbprFe87+et6jXmfO23xq8jD6li5F/WuZlw4+0YbV7a7dpnffx5mJ+fz7vT/ACvTfP8AeGuFPdZi4ufLFpx4r2iJ1Oo8SjNxs2GsWy4r0iZ1uYX5rYOVw/dX5GbjXrfJbeLq+OLUtX4tTHjq3+UKoimHg3wxzM3KvbLGTqyV1qIpFdeZ+m+2o7z2cbYMMY+UX7pNa63trgPE5AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACvNlpira2W/RSsbm2t6WMMuKmWvTkrFo+krWYidyrTr6hjmv78zbqmuop41fp790xz6Ra8WtNYiY1F4iJn6/Pvrsvrw+PXxirH5EcPBXxir+jrzp8q7j2a+P1DHktiilrW6/wD0zGo3Mb/0/wBS/OrXjY8u+q17TWaRWe0b1uZblcVI8UiPyV34eC2SMlsVZvHidJzp8am49kY81b2y7rFYx3iu/wD2xO/9WvfnY5tavbLrx0atuPrvetN6aVmsxNY1Pnt5U14fHrvWKsb+5mtqxHeEiYUzy8Vacq2O9enBEzM61uY34+vj5JrzqTWs7n4tfL6xE/X7/wDSV2TiYMlYi+KsxHjsmeNhnW8dZ19zXOnyruPZTi51MkV1No3NY/d8biZ35+WkTz8UTHVlrFZnXVqdR+nfv+HiGzODFNddFdfgwrxcFZ3GKsfkkWp8puPZXw+ZTkZ8+GJ3fFPftMdvz/CW2xx46441SsRH3MmJmJnsgAiAAAAAAAAAAAAAAAAAAAAAAAAAhIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhoAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEABQZ4sdsuStMdZta3aIXZuHfFx4zTak0men4Z33aiszG4hdNYBlAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAFbXpmS+Lm4748c5Zjfwx841p0M+HDi4WOI6/s1r9WSYmLWpOu0OfwORXj5bzkrNqXpNLanU6n6M758GPjZcPGjJPvddVr67RE77RD0471rTU/X/AH9W4mIhb6zTjUyRGHqi/TXcaiI1r+bmg45L87TbWmZnc7AGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAdb2b49c3Pm16xatKzOpj5t46TkvFI+KxG505I9Xwbfa+Vnx5uHjjBXerdOnnebx4xWi+OYnFe1op+ETp1y9Pwryidw1auo21gHnYAAAAAAAAAAAAABAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAdv0PkYuJweVlnJWM09q1me868dvzcRZgzZMGSL4bTW8fOHXDk9O/Jqs8Z27XM5vRacPM5OfJaIjqrjrFY3rxtyubyftF69NIx4qR00pHyhRkvbJe17zM2tO5mWK5c9r7j4FrTIA4sgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPjX7TvbX1TB7Q5/TfSuXfi8fjRFb2xdrXvMbnv5jW9fk8NHrXr3NvNa+pep57a3Na58lu34bbPt/W1fbT1mLb39ptP5T4/0WeyPIzYcHqMcTJxq8m1cc1pyM1MdclYt8UbtMR4n5Tv5x4f0DpOnxYunpNax4h2rEObmt6vFLXzW9Qisd5teb6/PbSnkZpnc5skz/zS93i5GfBHI39k4/EtxuR72b+q4uTe1pw3iK1jr3FdzGoiJn6zKv2T9X9muN7Lcjh+rcTDb1GZyzXLfHa0Wi0ViK7iJ1O6/LX3Wr336eURG4r/AIa08RHJz1/dzZY/C8r8fqnqGP8Aw+fy6f8ALmtH9X0Hj+0XsxT2a9J4uTj8K/Nw242TNM8SYj4cu7xPad2mutz4tG/uhseq+0vsrb2q9H5Xp2Dh14GDHl9/GbiTkibzWJrvdYmfijUT8vw7JNt9poaeAw+0nreGY936x6jXXy+031/N9e/ZH7T8z1ziczi+p5ZzcjjTW1cs/vWpO+0/XUx5+98k9r+Vw+Z7QcrN6ZTj04dun3dcGH3VI+GN6r5878vbfsIrafV/VLx+5GCsT+M27fyl878WwYrdJa/GImNT92LRGn2YB+IcWWCts2bJTHS9q44j3uWNdGOZ/drM73ufPaO0TG/LmT6zw6463y5LY4tmyYYiazM7peaWmdb1XceZ7d4+rrYslsczaszFtRHaZ1Op3G48Tpyr+i+nXta1+LS3VeckxMzMdUzue29d57zHiZenL6PGvCJjt3b7NK/tX6TFuPFM98nvssYvhx2jomerXVuI1+7PbzPyhtcP130/mZ8WHj57WyZP3YnFevymdTuO06rM6nzEbY19nvSazSY4OLdJi0b3PePE/fMbnX4z9SPQODHqWLm0pamTHXVaVmIruNxEzrvM6tMedd3H8k+E7OqMMWOuKnTSJiv3zM/zZsIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+Y/tE/Z7y/WvWLep+kZMEXy1iM2LLaa7tEaiYnU/LX6PE5f2be0+OZ1wKZP8Alz0/rL9CD6/T/jfU4KRjjUxHv/61Fph+c7fs/wDaePPpOT8slJ/+yu3sL7TVnU+kcj8prP8AV+kB6I/iLqPjWPv+685fm+PYb2lnx6RyPz6Y/qzr7Ae09vHpOWPxyUj+r9Gh/cXUfLH3/c5y/PvH/Zp7TZZjq4eLD9+TPX+ky+qfs59k7ey3p2eOVkx5ebybROSce+msR4rG/PmZ/N64ePq/xfqOqp6d9RH0SbTIA+Yw/9k=" width="452" height="315" />
+                    <img class="screenshot" src="data:image/jpeg;base64,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" width="452" height="315" />
                 </section>
             </div>
             <section>
@@ -510,7 +510,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path d="M10.896 2H8.75V.75a.75.75 0 00-1.5 0V2H5.104a.25.25 0 00-.177.427l2.896 2.896a.25.25 0 00.354 0l2.896-2.896A.25.25 0 0010.896 2zM8.75 15.25a.75.75 0 01-1.5 0V14H5.104a.25.25 0 01-.177-.427l2.896-2.896a.25.25 0 01.354 0l2.896 2.896a.25.25 0 01-.177.427H8.75v1.25zm-6.5-6.5a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5zM6 8a.75.75 0 01-.75.75h-.5a.75.75 0 010-1.5h.5A.75.75 0 016 8zm2.25.75a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5zM12 8a.75.75 0 01-.75.75h-.5a.75.75 0 010-1.5h.5A.75.75 0 0112 8zm2.25.75a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5z"/>
                             </svg>
-                            Average per day at ~0.26
+                            Average per day at ~0.27
                         </div>
                     </section>
                 </div>
@@ -958,10 +958,10 @@
                                 <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
                                 <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
                             </g>
-                            <g transform="translate(-6.8, 10)">
-                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
-                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
-                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            <g transform="translate(-6.8, 7.6)">
+                                <path fill="#216e39" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#216e39" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4.4 0,3.4000000000000004 z"/>
+                                <path fill="#216e39" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3.4000000000000004 1.7,4.4 z"/>
                             </g>
                             <g transform="translate(-8.5, 11)">
                                 <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
@@ -995,10 +995,10 @@
                                 <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
                                 <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
                             </g>
-                            <g transform="translate(-6.8, 7.6)">
-                                <path fill="#216e39" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
-                                <path fill="#216e39" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4.4 0,3.4000000000000004 z"/>
-                                <path fill="#216e39" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3.4000000000000004 1.7,4.4 z"/>
+                            <g transform="translate(-6.8, 10)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
                             </g>
                             <g transform="translate(-8.5, 11)">
                                 <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
@@ -1101,15 +1101,15 @@
                                 <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
                                 <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
                             </g>
-                            <g transform="translate(-5.1, 9)">
-                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
-                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
-                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            <g transform="translate(-5.1, 7.800000000000001)">
+                                <path fill="#216e39" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#216e39" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,3.2 0,2.2 z"/>
+                                <path fill="#216e39" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,2.2 1.7,3.2 z"/>
                             </g>
-                            <g transform="translate(-6.8, 10)">
-                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
-                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
-                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            <g transform="translate(-6.8, 8.8)">
+                                <path fill="#216e39" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#216e39" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,3.2 0,2.2 z"/>
+                                <path fill="#216e39" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,2.2 1.7,3.2 z"/>
                             </g>
                             <g transform="translate(-8.5, 11)">
                                 <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
@@ -1138,15 +1138,15 @@
                                 <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
                                 <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
                             </g>
-                            <g transform="translate(-5.1, 7.800000000000001)">
-                                <path fill="#216e39" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
-                                <path fill="#216e39" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,3.2 0,2.2 z"/>
-                                <path fill="#216e39" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,2.2 1.7,3.2 z"/>
+                            <g transform="translate(-5.1, 9)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
                             </g>
-                            <g transform="translate(-6.8, 8.8)">
-                                <path fill="#216e39" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
-                                <path fill="#216e39" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,3.2 0,2.2 z"/>
-                                <path fill="#216e39" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,2.2 1.7,3.2 z"/>
+                            <g transform="translate(-6.8, 10)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
                             </g>
                             <g transform="translate(-8.5, 11)">
                                 <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
@@ -1170,10 +1170,10 @@
                                 <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
                                 <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
                             </g>
-                            <g transform="translate(-3.4, 8)">
-                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
-                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
-                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            <g transform="translate(-3.4, 6.800000000000001)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,3.2 0,2.2 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,2.2 1.7,3.2 z"/>
                             </g>
                             <g transform="translate(-5.1, 9)">
                                 <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
@@ -1207,43 +1207,6 @@
                                 <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
                                 <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
                             </g>
-                            <g transform="translate(-3.4, 6.800000000000001)">
-                                <path fill="#216e39" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
-                                <path fill="#216e39" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,3.2 0,2.2 z"/>
-                                <path fill="#216e39" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,2.2 1.7,3.2 z"/>
-                            </g>
-                            <g transform="translate(-5.1, 9)">
-                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
-                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
-                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
-                            </g>
-                            <g transform="translate(-6.8, 10)">
-                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
-                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
-                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
-                            </g>
-                            <g transform="translate(-8.5, 11)">
-                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
-                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
-                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
-                            </g>
-                            <g transform="translate(-10.2, 12)">
-                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
-                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
-                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
-                            </g>
-                        </g>
-                        <g transform="translate(32.3, 19)">
-                            <g transform="translate(0, 6)">
-                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
-                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
-                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
-                            </g>
-                            <g transform="translate(-1.7, 7)">
-                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
-                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
-                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
-                            </g>
                             <g transform="translate(-3.4, 8)">
                                 <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
                                 <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
@@ -1265,16 +1228,16 @@
                                 <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
                             </g>
                             <g transform="translate(-10.2, 10.8)">
-                                <path fill="#216e39" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
-                                <path fill="#216e39" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,3.2 0,2.2 z"/>
-                                <path fill="#216e39" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,2.2 1.7,3.2 z"/>
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,3.2 0,2.2 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,2.2 1.7,3.2 z"/>
                             </g>
                         </g>
-                        <g transform="translate(34, 20)">
+                        <g transform="translate(32.3, 19)">
                             <g transform="translate(0, 3.5999999999999996)">
-                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
-                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4.4 0,3.4000000000000004 z"/>
-                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3.4000000000000004 1.7,4.4 z"/>
+                                <path fill="#216e39" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#216e39" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4.4 0,3.4000000000000004 z"/>
+                                <path fill="#216e39" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3.4000000000000004 1.7,4.4 z"/>
                             </g>
                             <g transform="translate(-1.7, 7)">
                                 <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
@@ -1287,14 +1250,14 @@
                                 <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
                             </g>
                             <g transform="translate(-5.1, 7.800000000000001)">
-                                <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
-                                <path fill="#9be9a8" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,3.2 0,2.2 z"/>
-                                <path fill="#9be9a8" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,2.2 1.7,3.2 z"/>
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,3.2 0,2.2 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,2.2 1.7,3.2 z"/>
                             </g>
                             <g transform="translate(-6.8, 8.8)">
-                                <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
-                                <path fill="#9be9a8" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,3.2 0,2.2 z"/>
-                                <path fill="#9be9a8" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,2.2 1.7,3.2 z"/>
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,3.2 0,2.2 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,2.2 1.7,3.2 z"/>
                             </g>
                             <g transform="translate(-8.5, 11)">
                                 <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
@@ -1302,12 +1265,12 @@
                                 <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
                             </g>
                             <g transform="translate(-10.2, 10.8)">
-                                <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
-                                <path fill="#9be9a8" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,3.2 0,2.2 z"/>
-                                <path fill="#9be9a8" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,2.2 1.7,3.2 z"/>
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,3.2 0,2.2 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,2.2 1.7,3.2 z"/>
                             </g>
                         </g>
-                        <g transform="translate(35.699999999999996, 21)">
+                        <g transform="translate(34, 20)">
                             <g transform="translate(0, 6)">
                                 <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
                                 <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
@@ -1344,7 +1307,7 @@
                                 <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
                             </g>
                         </g>
-                        <g transform="translate(37.4, 22)">
+                        <g transform="translate(35.699999999999996, 21)">
                             <g transform="translate(0, 6)">
                                 <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
                                 <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
@@ -1381,7 +1344,7 @@
                                 <path fill="#9be9a8" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,2.2 1.7,3.2 z"/>
                             </g>
                         </g>
-                        <g transform="translate(39.1, 23)">
+                        <g transform="translate(37.4, 22)">
                             <g transform="translate(0, 4.800000000000001)">
                                 <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
                                 <path fill="#9be9a8" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,3.2 0,2.2 z"/>
@@ -1418,7 +1381,7 @@
                                 <path fill="#9be9a8" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,2.2 1.7,3.2 z"/>
                             </g>
                         </g>
-                        <g transform="translate(40.8, 24)">
+                        <g transform="translate(39.1, 23)">
                             <g transform="translate(0, 4.800000000000001)">
                                 <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
                                 <path fill="#9be9a8" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,3.2 0,2.2 z"/>
@@ -1455,16 +1418,16 @@
                                 <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3.4000000000000004 1.7,4.4 z"/>
                             </g>
                         </g>
-                        <g transform="translate(42.5, 25)">
+                        <g transform="translate(40.8, 24)">
                             <g transform="translate(0, 6)">
                                 <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
                                 <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
                                 <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
                             </g>
                             <g transform="translate(-1.7, 5.800000000000001)">
-                                <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
-                                <path fill="#9be9a8" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,3.2 0,2.2 z"/>
-                                <path fill="#9be9a8" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,2.2 1.7,3.2 z"/>
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,3.2 0,2.2 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,2.2 1.7,3.2 z"/>
                             </g>
                             <g transform="translate(-3.4, 8)">
                                 <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
@@ -1482,21 +1445,21 @@
                                 <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
                             </g>
                             <g transform="translate(-8.5, 9.8)">
-                                <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
-                                <path fill="#9be9a8" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,3.2 0,2.2 z"/>
-                                <path fill="#9be9a8" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,2.2 1.7,3.2 z"/>
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,3.2 0,2.2 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,2.2 1.7,3.2 z"/>
                             </g>
                             <g transform="translate(-10.2, 8.4)">
-                                <path fill="#30a14e" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
-                                <path fill="#30a14e" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,5.6 0,4.6 z"/>
-                                <path fill="#30a14e" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,4.6 1.7,5.6 z"/>
+                                <path fill="#216e39" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#216e39" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,5.6 0,4.6 z"/>
+                                <path fill="#216e39" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,4.6 1.7,5.6 z"/>
                             </g>
                         </g>
-                        <g transform="translate(44.199999999999996, 26)">
+                        <g transform="translate(42.5, 25)">
                             <g transform="translate(0, 4.800000000000001)">
-                                <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
-                                <path fill="#9be9a8" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,3.2 0,2.2 z"/>
-                                <path fill="#9be9a8" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,2.2 1.7,3.2 z"/>
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,3.2 0,2.2 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,2.2 1.7,3.2 z"/>
                             </g>
                             <g transform="translate(-1.7, 7)">
                                 <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
@@ -1504,11 +1467,16 @@
                                 <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
                             </g>
                             <g transform="translate(-3.4, 6.800000000000001)">
-                                <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
-                                <path fill="#9be9a8" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,3.2 0,2.2 z"/>
-                                <path fill="#9be9a8" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,2.2 1.7,3.2 z"/>
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,3.2 0,2.2 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,2.2 1.7,3.2 z"/>
                             </g>
                             <g transform="translate(-5.1, 9)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-6.8, 10)">
                                 <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
                                 <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
                                 <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
@@ -1679,7 +1647,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 14 Oct 2022, 07:20:32 (timezone Asia/Shanghai) with lowlighter/metrics@3.28.0</span>
+                <span>Last updated 14 Oct 2022, 09:51:11 (timezone Asia/Shanghai) with lowlighter/metrics@3.28.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
